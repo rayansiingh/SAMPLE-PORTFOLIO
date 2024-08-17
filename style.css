@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 40px;
+}
+
+#nav h3 {
+  background-color: black;
+  color: white;
+  padding: 13px 23px;
+  font-size: 18px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+#intro {
+  height: 45%;
+  width: 100%;
+  padding: 50px 60px;
+}
+
+#intro h1 {
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: -4px;
+}
+
+#place {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#place h3,
+#place h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#hero-image {
+  height: 87%;
+  width: 100%;
+  background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645f6f57c592fff7671125d7_project-02-gallery-01.webp);
+  background-size: cover;
+}
+
+#about {
+  height: 45%;
+  width: 100%;
+  padding: 27px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about h2 {
+  width: 60%;
+  height: 100%;
+  font-size: 69px;
+  line-height: 90px;
+  letter-spacing: -4px;
+}
+
+#about-part2 {
+  width: 45%;
+  height: 100%;
+  border-left: 2px solid black;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-part2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#icons i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
